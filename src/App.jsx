@@ -1,12 +1,18 @@
-import React from 'react'
-import gsap from "gsap"
-import { useGSAP } from "@gsap/react"
+import React from 'react';
+import gsap from "gsap";
+import { useGSAP } from "@gsap/react";
+
+import Navbar from './Components/Navbar';
 
 gsap.registerPlugin(useGSAP);
 
 const App = () => {
+
   return (
-    <div>App</div>
+    <>
+      <Navbar />
+      <h1 className='font-lora font-bold'>I am a Heading</h1>
+    </>
   )
 }
 
