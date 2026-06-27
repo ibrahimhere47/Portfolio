@@ -3,14 +3,16 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 
 import Navbar from './Components/Navbar';
+import Home from './Components/Home';
 
 gsap.registerPlugin(useGSAP);
 
 const App = () => {
 
   return (
-    <div className='p-6 min-h-screen bg-black text-white'>
+    <div className='min-h-screen bg-black text-white no-scrollbar'>
       <Navbar />
+      <Home />
     </div>
   )
 }

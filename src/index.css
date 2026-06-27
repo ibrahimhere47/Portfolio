@@ -22,3 +22,32 @@
 @theme {
   --font-lora: "Lora"
 }
+
+@utility cool-button {
+  background-color: rgb(230, 200, 0);
+  color: black;
+  width: 200px;
+  border-radius: 10px;
+  font-family: "Lora";
+  font-size: 24px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+@utility unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+html, body {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar, 
+body::-webkit-scrollbar {
+  display: none;
+}
