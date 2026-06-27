@@ -9,10 +9,9 @@ gsap.registerPlugin(useGSAP);
 const App = () => {
 
   return (
-    <>
+    <div className='p-6 min-h-screen bg-black text-white'>
       <Navbar />
-      <h1 className='font-lora font-bold'>I am a Heading</h1>
-    </>
+    </div>
   )
 }
 
